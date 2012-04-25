@@ -14,7 +14,7 @@ module Osgb
 
   class Railtie
     def self.insert
-      ActiveRecord::Base.send(:include, Osgb::HasGridref)
+      
     end
   end
 end
