@@ -5,7 +5,7 @@ require 'osgb/helmert'                        # 3d transformation algorithm for 
 require 'osgb/point'                          # versatile coordinate pair
 require 'osgb/gridref'                        # parse grid references and returns lat/long pairs
 require 'osgb/string_conversions'             # add conversion methods to String
-require 'osgb/railtie' if defined? Rails      # add useful methods to ActiveRecord
+# require 'osgb/railtie' if defined? Rails      # add useful methods to ActiveRecord
 
 # Define standard ellipsoids
 
